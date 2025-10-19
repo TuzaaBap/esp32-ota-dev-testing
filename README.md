@@ -95,6 +95,7 @@ After saving both files and restarting the ESP32:
 	4.	Write or paste your MicroPython script.
 	5.	Click Save & Run to execute immediately.
 	6.	Watch the live logs on the same webpage.
+	7.  If you update the script values just hard rest to ensure safe running.
   
 ---
 
