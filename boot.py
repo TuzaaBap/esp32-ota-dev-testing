@@ -3,8 +3,8 @@
 import network, time
 
 # <<< your Wi-Fi >>>
-SSID = "Airtel_riyal"
-PASS = "Euuu@1713"
+SSID = "Your_WiFi_SSID"                  #Replace SSID and PASSWORD with your Wi-Fi credentials.
+PASSWORD = "Your_WiFi_Password"   
 
 def connect_wifi(timeout_s=12):
     sta = network.WLAN(network.STA_IF)
