@@ -1,9 +1,9 @@
 # ESP32 OTA / Dev Testing 🔧  
-**Version:** v1.0.0 (Stable)
+
 
 Password-protected OTA Web IDE for **MicroPython on ESP32 / ESP32-S3** boards.
 
-[Web Interface Screenshot] <img width="1440" height="848" alt="image" src="https://github.com/user-attachments/assets/861f54c1-3301-43fc-9d54-465c09ee4f9a" />
+[Web Interface Screenshot] <img width="1141" height="1340" alt="image" src="https://github.com/user-attachments/assets/f9b9758d-8794-4636-b5a4-3eb3d3a36eb6" />
 
 
 ---
