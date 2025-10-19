@@ -3,18 +3,23 @@
 import network, time
 
 # <<< your Wi-Fi >>>
-SSID = "Your_WiFi_SSID"                  #Replace SSID and PASSWORD with your Wi-Fi credentials.
-PASSWORD = "Your_WiFi_Password"   
+SSID = "Your_WiFi_SSID"        # Replace with your Wi-Fi SSID
+PASSWORD = "Your_WiFi_Password"       # Replace with your Wi-Fi password
 
 def connect_wifi(timeout_s=12):
     sta = network.WLAN(network.STA_IF)
     sta.active(True)
     if not sta.isconnected():
-        sta.connect(SSID, PASS)
+        sta.connect(SSID, PASSWORD)   # ✅ FIXED: use PASSWORD instead of PASS
         t0 = time.ticks_ms()
-        while (not sta.isconnected()) and time.ticks_diff(time.ticks_ms(), t0) < timeout_s*1000:
+        while (not sta.isconnected()) and time.ticks_diff(time.ticks_ms(), t0) < timeout_s * 1000:
             time.sleep(0.2)
+
     if sta.isconnected():
+        # turn off AP if it was previously active
+        ap = network.WLAN(network.AP_IF)
+        if ap.active():
+            ap.active(False)
         return ("STA", sta.ifconfig()[0])
 
     # Fallback AP so you can still reach the page if STA fails
