@@ -60,6 +60,12 @@ You can flash it easily using **either Thonny IDE (recommended for beginners)** 
    - Thonny will automatically detect your board and list available firmware versions.
    - Select the **latest stable firmware** for your board (ESP32 or ESP32-S3).
    - Click **“Install”** and wait until you see *“Done!”*.
+   - RePlug your ESP32/ESP32-S3 into your computer using a USB cable.
+   - go to:  
+     `Tools → Options → Interpreter`
+    Choose:   
+     **Port:** the serial port where your board is connected.
+   - This to make sure that after installing the firmware , your machine communicate with esp 32.
 
 5. **Verify**
    - After flashing, open Thonny’s **Shell** (bottom panel).
