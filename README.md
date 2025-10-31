@@ -24,7 +24,7 @@ It includes:
  Run existing `.py` files stored on device  
  Delete unwanted files  
  Real-time serial log output on webpage  
- Basic authentication (default: `admin` / `admin`)  
+ Basic authentication (default: `admin` / `admin`)  # can be changed
  Works on ESP32 and XIAO ESP32-S3 boards 
  Shell which also you control more and get test script without saving on ROM on the device
 
