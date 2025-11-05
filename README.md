@@ -3,7 +3,7 @@
 
 Password-protected OTA Web IDE for **MicroPython on ESP32 / ESP32-S3** boards.
 
-[Web Interface Screenshot] <img width="1141" height="1340" alt="image" src="https://github.com/user-attachments/assets/f9b9758d-8794-4636-b5a4-3eb3d3a36eb6" />
+Web Interface Screenshot] <img width="1141" height="1340" alt="image" src="https://github.com/user-attachments/assets/f9b9758d-8794-4636-b5a4-3eb3d3a36eb6" />
 
 
 ---
