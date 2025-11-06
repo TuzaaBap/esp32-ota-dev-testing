@@ -1,4 +1,4 @@
-# ESP32 OTA / Dev Testing 🔧  
+# ESP32 OTA / Dev Testing 
 
 
 Password-protected OTA Web IDE for **MicroPython on ESP32 / ESP32-S3** boards.
