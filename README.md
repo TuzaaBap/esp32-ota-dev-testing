@@ -171,6 +171,7 @@ After saving both files and restarting the ESP32:
 
 ###  License
 
-### Apache License 2.0 TuzaaBap
+### Apache License 2.0 
+TuzaaBap
 #### Free for personal and educational use. Attribution appreciated.
 ---
